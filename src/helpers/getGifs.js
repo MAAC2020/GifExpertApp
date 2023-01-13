@@ -1,7 +1,7 @@
 //se llama la funcion y para usar en otro lugar se utiliza export para exportarla
 export const getGifs = async (category) => {
   //url de la api
-  const url = `https://api.giphy.com/v1/gifs/search?api_key=c3a9c6fYqGpBatTzjgYWKF1ASvkcHH8z&q=${category}&limit=10`;
+  const url = `https://api.giphy.com/v1/gifs/search?api_key=c3a9c6fYqGpBatTzjgYWKF1ASvkcHH8z&q=${category}&limit=12`;
 
   const resp = await fetch(url);
 
